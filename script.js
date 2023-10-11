@@ -7,7 +7,8 @@ function hasKey(key) {
         if(arr[i]==key)return true;
     }
     return false;
+}
 
 // Do not change the code below
 const key = prompt("Enter Key.");
-alert(hasKey(key));
+alert(hasKey(key)); 
